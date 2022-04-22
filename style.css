@@ -1,0 +1,44 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+h1, 
+h2, 
+h3 {
+    color: brown;
+    text-decoration: underline dashed;
+}
+
+h1 {
+    text-decoration: underline overline dashed;
+}
+
+a,
+h3,
+.links h2 {
+    text-decoration: none;
+}
+
+header,
+article {
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.3em;
+}
+
+.tribute div {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+    grid-gap: 10px;
+}
+
+.art {
+    padding: 0 20px;
+}
