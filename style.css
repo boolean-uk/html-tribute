@@ -6,6 +6,10 @@ header {
     text-align: center;
 }
 
+header img {
+    max-width: 100%;
+}
+
 h1 {
     color: darkgoldenrod;
     font-size: 38px;
@@ -75,6 +79,10 @@ article a {
     padding: 8px;
     border: 4px dotted azure;
     text-decoration: none;
+}
+
+article div {
+    clear: right;
 }
 
 footer {
