@@ -8,6 +8,7 @@ header {
 
 header img {
     max-width: 100%;
+    border-radius: 8px;
 }
 
 h1 {
@@ -32,6 +33,7 @@ aside {
     padding: 8px;
     text-align: center;
     background-color: aliceblue;
+    border-radius: 8px;
 }
 
 aside ol {
@@ -42,7 +44,6 @@ aside ol {
 
 article section {
     border: 1px solid red;
-    background-color: lightpink;
     color: red;
     text-align: center;
 }
@@ -56,6 +57,7 @@ article {
     padding: 15px 10px 20px 15px;
     background-color: lightcyan;
     margin: 12px 0 12px 0;
+    border-radius: 8px;
 }
 
 article h2 {
@@ -86,7 +88,7 @@ article div {
 }
 
 footer {
-    border: 1px darkorange solid;
+    border: 4px darkorange solid;
     background-color: orange;
     color: darkred;
     text-align: center;
