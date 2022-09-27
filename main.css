@@ -1,0 +1,28 @@
+body {background-image: url("https://www.westend61.de/images/0001661517pw/aerial-top-down-view-of-female-model-lying-on-white-sand-beach-in-south-male-atoll-maldives-AAEF14270.jpg");
+    color: rgb(9, 13, 18);
+    font-weight: 500;
+    background-size: cover;
+    
+}
+h1 {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    color: rgb(66, 66, 71);
+    font-size: x-large;
+    font-weight: 400;
+    font-style: oblique;
+}
+h3 {
+    color:black;
+    font-weight: 600;
+}
+a {font-size: x-large;
+    color: rgb(22, 22, 136);
+    font-size: x-large;
+    font-weight: 700;
+}
+ol {font-family: 'Times New Roman', Times, serif;
+}
+footer {font-stretch: ultra-expanded;
+
+}
