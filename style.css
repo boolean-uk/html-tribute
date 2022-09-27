@@ -6,6 +6,7 @@
 
 body {
   background-color: rgba(221, 221, 221, 0.458);
+  background-color: #fff;
   font-family: "Courier Prime", sans-serif;
   color: #333;
 }
@@ -66,7 +67,9 @@ main {
 
 .main-img {
   height: 100%;
-  border-radius: 12px;
+  /* border-radius: 12px; */
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 
 .text-box {
