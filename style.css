@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(221, 221, 221, 0.458);
+  font-family: "Courier Prime", sans-serif;
+  color: #333;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* header and navigation */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.nav {
+  background-color: rgba(38, 38, 44, 0.595);
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  margin-bottom: 50px;
+  border-bottom: 2px solid black;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  color: #000;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #fff;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* main section */
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+main {
+  font-family: sans-serif;
+  background-color: rgba(221, 221, 221, 0.458);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 12px;
+  height: 75vh;
+  width: 1030px;
+  margin: 0 auto;
+}
+
+.main-card {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.main-img {
+  height: 100%;
+  border-radius: 12px;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: -10px;
+  letter-spacing: 1.6px;
+}
+
+h4 {
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-align: end;
+  padding-bottom: 12px;
+  border-bottom: 1px black solid;
+}
+
+p {
+  font-size: 18px;
+}
+
+ul {
+  padding: 15px;
+}
+
+.book-list-item {
+  font-size: 15px;
+}
+
+.book-list-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.bibliography-link:link,
+.bibliography-link:visited {
+  margin-bottom: 28px;
+  font-size: 12px;
+  color: rgba(35, 35, 181, 0.681);
+}
+
+.bibliography-link:hover,
+.bibliography-link:active {
+  color: black;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.book {
+  height: 180px;
+  border: 5px solid #fff;
+  border-radius: 12px;
+}
