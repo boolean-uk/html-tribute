@@ -1,0 +1,18 @@
+h1, h2 {
+    color: blue;
+    text-align: center;
+    text-decoration: underline black;
+}
+
+p {
+    font-size: 1.05em;
+    line-height: 1.05em;
+}
+
+body {
+    background-color: #e5e5ff;
+}
+
+img {
+    mix-blend-mode: multiply;
+}
