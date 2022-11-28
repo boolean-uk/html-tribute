@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    scroll-snap-align: start;
+}
+
+.container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.first {
+    background-image: url(https://images.unsplash.com/photo-1578133559556-9e83af5fc5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+}
+
+.dog {
+    padding-right: 230px;
+    text-shadow: 100px;
+    font-size: 75px;
+    text-transform: uppercase;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    color: rgb(239, 219, 104);
+    text-shadow: 5px 5px black;
+}
+
+.dog:hover {
+    letter-spacing: 1px;
+  }
+
+.para1 {
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    line-height: 150%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    letter-spacing: .5px;
+    background: rgba(112, 112, 112, 0.05);
+    border-radius: 16px;
+    box-shadow: 10 10px 50px rgba(0, 0, 0, 0.62);
+    backdrop-filter: blur(9.7px);
+    -webkit-backdrop-filter: blur(9.7px);
+    border: 1px solid rgba(112, 112, 112, 0.38);
+}
+
+.second {
+    background-color: rgb(234, 126, 222);
+}
+
+.para2 {
+    font-size: 60px;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: underline;
+    color: rgb(245, 216, 114);
+}
+
+.third {
+    background: rgb(43, 127, 244);
+}
+
+.fourth {
+    background: rgb(118, 243, 104);
+}
+
+.para3 {
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: rgb(246, 130, 224);
+}
+
+.para4 {
+    font-size: 60px;
+    font-weight: bolder;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: rgb(155, 29, 239);
+}
+
+.outer {
+    padding: 2em 2em;
+    font: normal 50px/50px Montserrat, sans-serif;
+    color: #999;
+  }
+  .outer p {
+    height: 50px;
+    float: left;
+    margin-right: 0.3em;
+  }
+  .outer b {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    top: 0px;
+  }
+  .outer .inner {
+    display: inline-block;
+    color: #2a81e3;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+  
+/* ANIMATION FOR THESE PETS ARE */
+  -webkit-animation:move 5s;
+     -moz-animation:move 5s;
+      -ms-animation:move 5s;
+       -o-animation:move 5s;
+          animation:move 5s;
+  -webkit-animation-iteration-count:infinite;
+     -moz-animation-iteration-count:infinite;
+      -ms-animation-iteration-count:infinite;
+       -o-animation-iteration-count:infinite;
+          animation-iteration-count:infinite;
+  -webkit-animation-delay:1s;
+     -moz-animation-delay:1s;
+      -ms-animation-delay:1s;
+       -o-animation-delay:1s;
+          animation-delay:1s;
+  }
+  @keyframes move{
+  0%  { top: 0px; }
+  20% { top: -50px; }
+  40% { top: -100px; }
+  60% { top: -150px; }
+  80% { top: -200px; }
+  }
+  
+  @-webkit-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @-moz-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @-o-keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
+  @keyframes move {
+      0%  { top: 0px; }
+      20% { top: -50px; }
+      40% { top: -100px; }
+      60% { top: -150px; }
+      80% { top: -200px; }
+  }
