@@ -1,19 +1,28 @@
-h2 {
-    color:green;
-    text-align: center;
-    text-decoration: underline rgb(139, 239, 139);   
-}
-
 p {
     font-size:20px;
     line-height: 150%;
 }
 
 body {
-    background-color: lightgray;
+    background-color: rgb(153, 152, 152);
 }
 
-h1,h3,h4 {
+h1, h2, h3, h4 {
+    color:rgb(20, 90, 20);
     text-align: center;
-    text-decoration: underline rgb(139, 239, 139);
+    text-decoration: underline rgb(49, 61, 49); 
+}
+
+div, header {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(199, 198, 198);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.253);
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.253);
 }
