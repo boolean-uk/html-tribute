@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(187, 216, 187);
+}
+
+h1,
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(26, 10, 120);
+
+  text-decoration: underline;
+  border-bottom: 2px brown;
+  text-align: center;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+  font-size: larger;
+  line-height: 130%;
+}
