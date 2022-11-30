@@ -1,0 +1,65 @@
+
+.body{
+    margin: 100px 100px 100px 100px;
+    background-color: palegoldenrod;
+}
+
+.intro h1{
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+    text-shadow: orange 2px 1px;
+}
+
+.pictures{
+    margin-top: 50px;
+    border: black solid 3px;
+    padding: 20px 20px 20px 20px;
+
+    display: grid;
+    grid-template-rows: 300px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-areas:
+    "p1 p2 p3"
+    ;
+    gap: 50px
+    ;
+}
+
+.p1 {
+    grid-area: p1;
+    
+}
+
+.p2 {
+    grid-area: p2;
+}
+
+.p3 {
+    grid-area: p3;
+}
+
+.history > h2{
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+    color: green;
+    text-shadow: orange 2px 1px;
+}
+
+.history > p{
+    font-size: 18px
+}
+
+.more_info > h2 {
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
+    color: orange;
+    text-shadow: yellow 2px 1px
+}
+
+.more_info > ul {
+    font-size: 18px;
+}
