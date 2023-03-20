@@ -1,0 +1,13 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline gray;
+  background-color: antiquewhite;
+}
+
+h3 {
+  text-decoration: underline darkred;
+}
