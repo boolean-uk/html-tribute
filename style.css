@@ -1,0 +1,23 @@
+img {
+  max-width: 400px
+}
+
+.display-pic {
+  max-width: 400px
+}
+
+h1 {
+  color: rgb(125, 188, 80);
+}
+
+h2 {
+  color: rgb(125, 85, 189);
+}
+
+p {
+  font-size: 1.2em
+}
+
+body {
+  background-color: grey;
+}
