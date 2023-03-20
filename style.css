@@ -1,0 +1,29 @@
+img {
+  max-width: 400px
+}
+
+.display-pic {
+  max-width: 400px
+}
+
+h1 {
+  color: rgb(125, 188, 80);
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: white;
+  
+}
+
+h2 {
+  color: rgb(125, 85, 189);
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 30px;
+}
+
+body {
+  background-color: grey;
+}
