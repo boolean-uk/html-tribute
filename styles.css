@@ -42,4 +42,22 @@ button {
     width: 400px;
     height: 100px;
     margin-top: 0;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.50;
+    font-weight: bold;
+}
+
+.button_text {
+    opacity: 1;
+    outline: none;
+
+}
+
+.gallery_title {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: brown;
+
 }
