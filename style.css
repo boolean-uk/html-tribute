@@ -1,0 +1,12 @@
+h1 {
+    color: orange;
+    text-align: center;
+    text-decoration: underline lightpink ;
+}
+
+p {
+    font-size: medium;
+    line-height: 200% ;
+}
+
+html{ background-color: antiquewhite;}
