@@ -1,5 +1,7 @@
 * {
   font-family: "Times New Roman", Times, serif;
+  background-color: aliceblue;
+  text-align: center;
 }
 
 h1 {
@@ -10,4 +12,22 @@ h1 {
 
 h3 {
   text-decoration: underline darkred;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+img,
+video {
+  display: block;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  font-weight: bold;
 }
