@@ -1,0 +1,39 @@
+h1 {
+    color: #606c38;
+    font-size: 50px;
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    margin: 30 30 30;
+}
+
+h2 {
+    font-size: 3rem;
+    color: darkolivegreen;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-color: #606c38;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-size: 2em;
+    line-height: 1.5;
+}
+
+li {
+    font-size: 1.6em;
+    line-height: 1.4;
+}
+
+body {
+    background-color: #dad7cd
+}
