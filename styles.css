@@ -1,0 +1,63 @@
+* {
+    background-color: bisque;
+}
+header {
+    text-align: center;
+    text-decoration: wavy underline;
+    text-decoration-color: rgb(169, 25, 236);
+    color: rgb(42, 22, 113);
+}
+p {
+    background-color: rgba(255, 255, 255, 0.795);
+    border: 2px dotted black;
+    line-height: 1.5;
+    color: rgb(128, 128, 213);
+}
+td {
+    background-color: red;
+}
+table, td {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 50px;
+}
+
+img {
+    margin: 10px;
+    width: 400px;
+    margin-bottom: 5px;
+}
+th {
+    font-weight: bold;
+    background-color: rgb(77, 95, 130);
+}
+button {
+    background-image: url("axe.jpeg");
+    background-size: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    width: 400px;
+    height: 100px;
+    margin-top: 0;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.50;
+    font-weight: bold;
+}
+
+.button_text {
+    opacity: 1;
+    outline: none;
+
+}
+
+.gallery_title {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: brown;
+
+}
