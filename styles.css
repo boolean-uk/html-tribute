@@ -1,0 +1,29 @@
+
+h1 {
+    color:blueviolet ;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 50px ;
+}
+
+h2 {
+    color: red ;
+    font-family: 'Courier New', Courier, monospace ;
+    font-size: 32px;
+}
+
+.blue_period {
+    color: blue ;
+    font-size: 18px 
+}
+
+.about {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    
+}
+
+.main {
+    text-align: justify;
+    background-color: rgb(155, 177, 177);
+}
