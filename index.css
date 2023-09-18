@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    background-color: rgb(223, 102, 102);
+}
+
+body {
+    background-color: rgb(164, 140, 111);
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+    font-style: oblique;
+    font-size: 15px;
+}
+
+p {
+    text-align: center;
+    color: rgb(35, 2, 35);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+
+}
