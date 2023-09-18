@@ -1,0 +1,108 @@
+.container {
+    background-color: black;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display : flex;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to bottom, black, rgb(46, 46, 46));
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+}
+
+.intro {
+    position: relative; 
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro::before {    
+      content: "";
+      background-image: url('https://www.charlotteobserver.com/latest-news/5gc7dk/picture242272656/alternates/FREE_1140/IMG_222831.JPG_2_1_US29FR4I.JPG');
+      background-size: cover;
+      position: absolute;
+      background-repeat: no-repeat;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.2;
+}
+
+.intro-text {
+  position: relative;
+  color: #ffffff;  
+  font-size: 30px;
+  line-height: 0.9;
+  text-align: center;
+}
+
+.timeline {
+    position: relative; 
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeline::before {    
+      content: "";
+      background-image: url('https://www.nascar.com/wp-content/uploads/sites/7/2023/02/15/dale-earnhardt-1998-hero.jpg');
+      background-size: cover;
+      position: absolute;
+      background-repeat: no-repeat;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.2;
+}
+
+.timeline-text {
+  position: relative;
+  color: #ffffff;  
+  font-size: 30px;
+  line-height: 0.9;
+  text-align: center;
+}
+
+.black-3 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.black-3-text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+.black-3-img {
+    position: relative;
+    display: flex;
+    height: auto;
+    justify-content: flex-end;
+}
