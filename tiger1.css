@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(139, 237, 139);
+}
+
+header {
+    color: orange;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+p {
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+font-size: 18px;
+}
+
+h2 {
+    color: orange;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 30px;
+}
+
+li {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h3 {
+    color: orange;
+    text-align: center;
+    font-size: 25px;
+    text-decoration:underline ;
+
+}
+
+a {
+    padding-left: 180px;
+}
