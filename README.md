@@ -1,4 +1,4 @@
-<!--
+
 
 # Tribute Page ⭐️ 
 Today we're building a simple tribute page to someone or something you love! Some ideas:
