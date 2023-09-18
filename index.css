@@ -1,0 +1,16 @@
+.title {
+    color: red;
+    text-align: center;
+}
+
+.othertitles {
+    color: green;
+    text-align: center;
+    line-height: 1.5;
+    border-bottom: 2px solid darkgreen; 
+    text-decoration: none;
+}
+
+body {
+    background-color: beige;
+}
