@@ -36,15 +36,14 @@ p {
     color: rgb(252, 137, 133);
     margin-bottom: 5px;
     text-decoration: none;
-    text-align: justify;
-    margin-left:380px;
+    text-align: center;
 }
 
 .page-links ul li {
     list-style: "\1F408";
     padding: 5px;
     text-align: justify;
-    margin-left:350px;
+    margin: 0 600px;
 
 }
 
@@ -61,12 +60,9 @@ p {
 }
 
 .intro ol {
-    padding: 1rem 25rem;
-    /* padding-left: 25rem; */
-    /* padding-right: 25rem; */
-    text-align: center;
     margin-bottom: 20px;
-
+    text-align: justify;
+    margin: 0 550px;
 }
 
 .intro li {
@@ -82,6 +78,8 @@ p {
 
 .links ul li {
     padding: 5px;
+    text-align: center;
+    /* margin: 0 0px; */
 }
 
 .links ul li a{
@@ -102,13 +100,14 @@ p {
     padding-bottom: 10px;
     font-size: 20px;
     list-style: "\1F408";
-    margin-left: 550px;
-    text-align: justify;
+    margin: 0 700px;
+    text-align: center;
 }
 
 .more-reading a{
     color: rgb(255, 255, 255);
     margin: 10px;
+    margin-left: -20px;
 }
 
 /* RETURN */
@@ -116,5 +115,4 @@ p {
     color: red;
     font-size: 15px;
     text-align: justify;
-    margin-left: 40px;
 }
