@@ -1,0 +1,29 @@
+header {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(0, 230, 0);
+}
+
+body {
+    text-align: center;
+    background-color: grey;
+}
+
+h1 {
+    color: rgb(0, 230, 0);
+}
+
+h2 {
+    color: rgb(0, 230, 0);
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+ol {
+    color: white;
+    list-style-position: inside;
+    font-size: 20px;
+}

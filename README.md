@@ -1,3 +1,5 @@
+
+
 # Tribute Page ⭐️ 
 Today we're building a simple tribute page to someone or something you love! Some ideas:
 
@@ -21,3 +23,4 @@ Using the provided HTML template to get started:
     - Add a colored underline to your headers
 - **Extension 2** Add a link to different websites ie. Wikipedia page
 - **Extension 3** Add links to a different part of the page!
+-->
