@@ -1,0 +1,30 @@
+body {
+    background-color: black;;
+}
+.text{
+    color:  rgba(255, 255, 255, 0.545);
+}
+header{
+    text-align: center;
+}
+.img{
+    padding-left: 38%;
+}
+h2{
+    text-align: center;
+    
+}
+.bio{
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#wiki{
+    padding-left:45% ;
+}
+#roka{
+    padding-left: 48%;
+}
+#linkof{
+    padding-left: 43%;
+}
