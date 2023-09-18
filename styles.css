@@ -1,0 +1,81 @@
+
+
+body {
+    background: rgb(37,82,152);
+    background: linear-gradient(90deg, rgba(37,82,152,1) 18%, rgba(22,136,207,1) 38%, rgba(140,130,201,1) 100%, rgba(174,63,204,1) 100%, rgba(122,88,205,1) 100%, rgba(128,85,205,1) 100%);
+font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color:  rgb(86, 83, 83);
+}
+
+
+.intro {
+    margin: 20px;
+    text-decoration: underline rgb(90, 136, 90);
+    color:  rgb(14, 13, 13);
+}
+
+.para {
+    margin: 20px;
+    font-size: 19px;
+}
+
+.five-facts
+{
+    margin: 20px;
+    text-decoration: underline rgb(90, 136, 90);
+    color:  rgb(14, 13, 13);
+    
+}
+
+.success {
+    margin: 20px;
+    text-decoration: underline rgb(90, 136, 90);
+    color: rgb(14, 13, 13);
+}
+
+.image {
+    margin: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.time-line {
+    margin: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Motivational {
+    margin: 30px;
+    text-decoration: underline rgb(90, 136, 90);
+    color: rgb(14, 13, 13);
+}
+
+.more-info {
+    margin: 30px;
+    text-decoration: underline rgb(90, 136, 90);
+    color:  rgb(14, 13, 13);
+}
+
+.link {
+    margin: 30px;
+    font-size: 19px;
+    color: rgb(59, 4, 4);
+}
+
+li {
+    font-size: 19px;
+ 
+}
+
+hr {
+    border: 5px solid grey;
+}
