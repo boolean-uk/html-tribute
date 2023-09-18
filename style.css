@@ -1,0 +1,118 @@
+/* MAIN BODY */
+body {
+    margin: 80px;
+    color: white;
+    background-color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.intro {
+    border: 1.5rem solid rgb(0, 0, 0);
+}
+
+/* HEADERS */
+h1 {
+    color: rgb(250, 204, 149);
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: blue;
+    font-size: 30px;
+    text-decoration: underline rgb(41, 44, 245);
+    margin-bottom: 30px;
+}
+
+/* PARAS */
+p {
+    line-height: 30px;
+}
+
+/* PAGE LINKS */
+.page-links h2 {
+    font-size: 20px;
+    color: rgb(252, 137, 133);
+    margin-bottom: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.page-links ul li {
+    list-style: "\1F408";
+    padding: 5px;
+    text-align: justify;
+    margin: 0 600px;
+
+}
+
+.page-links ul li a {
+    color: azure;
+    text-decoration: none;
+    text-align: left;
+}
+
+/* INTRO */
+
+.intro {
+    border-top: 0;
+}
+
+.intro ol {
+    margin-bottom: 20px;
+    text-align: justify;
+    margin: 0 550px;
+}
+
+.intro li {
+    color: rgb(194, 8, 8);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* RELATED LINKS */
+.links ul {
+    list-style: none;
+}
+
+.links ul li {
+    padding: 5px;
+    text-align: center;
+    /* margin: 0 0px; */
+}
+
+.links ul li a{
+    color: rgb(43, 233, 122);
+    font-size: 20px;
+}
+
+/* FURTHER READING */
+.more-reading {
+    margin-bottom: 50px;
+}
+
+.more-reading ul {
+    list-style: none;
+}
+
+.more-reading ul li {
+    padding-bottom: 10px;
+    font-size: 20px;
+    list-style: "\1F408";
+    margin: 0 700px;
+    text-align: center;
+}
+
+.more-reading a{
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    margin-left: -20px;
+}
+
+/* RETURN */
+.return-link {
+    color: red;
+    font-size: 15px;
+    text-align: justify;
+}
