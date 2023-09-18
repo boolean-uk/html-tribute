@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rouge Script", cursive;
+}
+
+html {
+  background-image: url(https://vz.cnwimg.com/thumbc-300x300/wp-content/uploads/2021/01/pedro.jpg);
+  background-repeat: repeat;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 200px;
+
+  align-items: center;
+  justify-items: left;
+  background-color: rgb(252, 251, 252);
+  padding-left: 25px;
+}
+
+body > header > div.links {
+  display: grid;
+  justify-content: right;
+  grid-template-columns: 1fr;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+header > div.links > ul.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header > div.links > ul.links > li {
+  text-align: center;
+}
+
+header > div.title {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  width: 100%;
+
+  align-items: center;
+}
+
+header > div.title > div {
+  display: grid;
+  justify-content: right;
+}
+
+header > div.title > div > img {
+  object-fit: none;
+  object-position: 90% 45%;
+  width: 600px;
+  height: 200px;
+}
+
+main {
+  background: linear-gradient(
+    rgb(252, 251, 252),
+    rgba(255, 192, 203, 0.9),
+    rgb(167, 167, 255, 0.9)
+  );
+  width: 80vw;
+  padding: 25px;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  text-align: center;
+  color: rebeccapurple;
+  font-size: 4rem;
+  text-decoration: underline solid white 3px;
+  
+  text-align: center;
+  text-underline-position: under;
+}
+
+h3 {
+  font-size: 3rem;
+  color: rebeccapurple;
+  text-decoration: underline solid white 3px;
+  text-underline-position: under;
+  padding: 20px 0;
+}
+
+p,
+li {
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+ul.links {
+  display: inline-block;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: inherit;
+}
+
+ul.feats > li {
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+ul.feats > li::before {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url(https://gossipgist.com/uploads/30018/pedro-pascal-imdb.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+ul.feats > li.yoda::before {
+  background-image: url(https://www.nbatitlechase.com/wp-content/uploads/2019/12/PHOTO-Baby-Yoda-Sad-Face.jpg);
+  width: 50px;
+  height: 50px;
+}
+
+ul.img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+ul.img > li {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.img > li > img {
+  height: 200px;
+}
