@@ -70,3 +70,15 @@ footer {
     text-align: center;
     background-color: brown;
 }
+
+.bottom-links {
+    text-align: left;
+    list-style-type: circle;
+    padding-top: 20px;
+    padding-left: 35%;
+}
+
+.back-to-the-top {
+    margin: 0px;
+    padding-top: 80px;
+}
