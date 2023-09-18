@@ -1,0 +1,30 @@
+/* Background color of the page */
+body {
+    background-color: #d12222;
+}
+
+/* Text color of headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+/* Font size of paragraphs */
+p {
+    font-size: 18px;
+}
+
+/* Extension 1: Adjustments using CSS */
+/* Increase spacing lines in paragraphs */
+p {
+    line-height: 1.6;
+}
+
+/* Center align headers */
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+/* Add colored underline to headers */
+h1, h2, h3, h4, h5, h6 {
+    border-bottom: 2px solid #333;
+}
