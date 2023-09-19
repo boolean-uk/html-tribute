@@ -1,0 +1,51 @@
+* {
+  background-color: rgb(215, 119, 116);
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline 5px solid darkblue;
+}
+
+.men {
+  color: brown;
+  text-align: center;
+  text-decoration: underline solid;
+}
+
+a {
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(16, 16, 174);
+  text-decoration: underline 5px dotted blue;
+  background-color: red;
+}
+
+img {
+  width: 400px;
+  length: 400px;
+  display: inline;
+}
+
+.slogan {
+  text-align: center;
+  text-decoration: underline dashed blueviolet 2px;
+  color: brown;
+  font-size: xx-large;
+}
+
+header {
+  text-align: center;
+  display: inline-block;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
