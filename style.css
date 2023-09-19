@@ -2,18 +2,25 @@ body {
     width: 95%;
     padding: 10px;
     background-color: rgb(117, 61, 61);
+    font-size: 40px;
 }
 
 h1 {
     background-color: brown;
     font-size: 100px;
     text-align: center;
+    padding: ;
     border-radius: 10px;
     border: 10px solid rgb(0, 0, 0);
+    text-shadow: -5px 5px 10px rgb(88, 4, 4);
 }
 img {
+    display: block;
+    margin: 0 auto;
     width: 25%;
     border-radius: 25%;
+    border: 10px solid rgb(0, 0, 0);
+    box-shadow: -25px -15px 10px black;
 }
 
 h2 {
@@ -24,20 +31,25 @@ h2 {
 }
 
 p {
-    font-size: 40px;
     text-align: center;
     color: rgb(227, 191, 191);
 }
+ footer {
+    display: inline;
 
+ }
 
 a {
-    font-size: 40px;
-    text-align: center;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px 25px;
     text-decoration: none;
-    color: rgb(210, 148, 14);
-    
+    color: rgb(7, 5, 0);
+    border: 10px solid orange;
+    background-color: rosybrown;    
 }
 a:hover {
-    color: red;
+    background-color:orange;
     text-decoration: underline;
 }
