@@ -7,10 +7,7 @@ header {
     background-position: center;
 }
 body {
-    background-size: auto;
     background-color: black;
-    background-blend-mode: darken;
-    background-attachment: fixed;
     color: white;
     margin: 0 0 0 400px;
     width: 600px;
@@ -35,7 +32,13 @@ footer {
 }
 
 .nav-bar li {
+    width:fit-content;
+    padding: 4px;
     margin: 10px 0;
+}
+
+.nav-bar li:hover {
+    background-color:  rgba(0, 255, 255, 0.541);
 }
 
 h1, h2, h3 {
