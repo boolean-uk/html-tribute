@@ -1,0 +1,23 @@
+.Tribute {
+    background-color:pink;
+    min-height: 600px;
+     
+  }
+p {
+    font-size :20px;
+    color: black;
+}
+.header {
+    font-size : 35px;
+    background-color: white;
+    color:blueviolet;
+    min-height: 80px;
+    margin-bottom: 10px;
+}
+.sub {
+    font-size:30px;
+    background-color:aqua;
+    color:black;
+    min-height: 50;
+    margin-bottom: 10px;
+}    
