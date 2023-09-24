@@ -1,0 +1,58 @@
+html {
+    background-color: #32373c;
+    border-radius: 28px;
+    box-shadow: none;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    overflow-wrap: break-word
+}
+
+body {
+    color: #ededed;
+    font-family: 'ag',sans-serif;
+}
+
+.exlink {
+    color: green;
+    font-size: 30px;
+}
+
+.offlink {
+    color: yellow;
+}
+
+.title {
+   color: rgba(230, 57, 57, 0.8);
+   font-size: 100px;
+}
+
+h2 {
+    color: rgba(44, 249, 249, 0.834);
+    font-size: 50px;
+}
+
+h3 {
+    color: rgba(44, 249, 249, 0.834);
+    font-size: 50px;
+}
+
+h4 {
+    color: rgba(44, 249, 249, 0.834);
+    font-size: 50px;
+}
+
+.albums {
+    font-size: 30px;
+    color: bisque;
+    }
+
+.tours  {
+    font-size: 25px;
+    font-style: bold; font-family:sans-serif
+}
