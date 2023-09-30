@@ -1,0 +1,40 @@
+* {
+    background-color: gray;
+}
+
+
+h2 {
+
+    color: white;
+    text-align: center;
+    font-style: italic;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h3 {
+
+    color: black;
+    text-align: center;
+
+}
+
+footer {
+    bottom: 0%;
+    position: fixed;
+}
+
+.home_button {
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    font-size: large;
+    display: block;
+    margin: 0%;
+}
