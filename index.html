@@ -5,9 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    
+    <title>Yugi Muto Rocks</title>
   </head>
   <body>
-
+  <script>
+    const factNumber = 7
+    function getRandomInt(min, max) {
+      const minCeiled = Math.ceil(min)
+      const maxFloored = Math.floor(max)
+      return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled) 
+    }
+    function swapBio(){
+      const randomNum = getRandomInt(1, factNumber + 1)
+      for (let i = 1; i < 8; i++) {
+        document.getElementById("bio"+i).style.display = 'none'
+        document.getElementById("bio"+i).style.animation = 'none'
+      }
+      document.getElementById("bio"+randomNum).style.display = 'block'
+      document.getElementById("bio"+randomNum).style.animation = 'myAnim 2s ease 0s 1 normal forwards'
+    }
+  </script>
+  
+  <header>
+    <h1>Yugi Muto</h1>
+    <h2>The King of Games</h2> 
+  </header>
+  <button type="button" name="button" onclick="swapBio()">Click for a new Yugi Fact </button>
+  <img src="https://ms.yugipedia.com//thumb/c/c4/YamiYugi-DULI.png/413px-YamiYugi-DULI.png" alt="Yugi Muto, from Duel Links" id="yugi-1">
+  <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/84dc13b7-a2e7-4b45-83ec-311e72e82900/ddeadfd-7c37e230-34a1-487b-9079-a6d33e1e373f.png/v1/fit/w_561,h_592/yami_yugi_render_3__website__by_maxiuchiha22_ddeadfd-375w-2x.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTkyIiwicGF0aCI6IlwvZlwvODRkYzEzYjctYTJlNy00YjQ1LTgzZWMtMzExZTcyZTgyOTAwXC9kZGVhZGZkLTdjMzdlMjMwLTM0YTEtNDg3Yi05MDc5LWE2ZDMzZTFlMzczZi5wbmciLCJ3aWR0aCI6Ijw9NTYxIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.cAXcPjPpelUnxVsbIXjFSY0Q2mtz-nh-ezwp7xoYZmI" alt="Yugi Drawing a card" id="yugi-2">
+  <a id="link" href="https://www.yugioh-card.com/eu/"><img id="yugilogo" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/736076d5-b05f-4951-930b-2e192d548cb4/deicguz-f8a4476b-961a-43a4-b2ff-5afbdedf52e8.png/v1/fill/w_1280,h_436/official_yu_gi_oh__render_logo_by_jilly1981_deicguz-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NDM2IiwicGF0aCI6IlwvZlwvNzM2MDc2ZDUtYjA1Zi00OTUxLTkzMGItMmUxOTJkNTQ4Y2I0XC9kZWljZ3V6LWY4YTQ0NzZiLTk2MWEtNDNhNC1iMmZmLTVhZmJkZWRmNTJlOC5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.s3M8RJyODxS8jTmZRyKE15y5YdCGcFyGhOr9wakvgI8" alt="Yugioh Logo"></a>
+  <article id="yugibio">
+    <p id="bio1">Yugi Muto is an iconic character in the world of anime and manga, 
+      primarily known for his role in the series "Yu-Gi-Oh!" created by Kazuki Takahashi. 
+      Here's a lot of cool stuff about Yugi Muto:</p>
+    <p id="bio2"> Yugi lives in Domino City. 
+      He possesses an ancient Egyptian artifact called the Millennium Puzzle, 
+      which becomes the focal point of his adventures.</p>
+    <p id="bio3">
+      Yugi's journey begins when he solves the Millennium Puzzle, 
+      a mysterious artifact that grants him incredible powers and connects him with the spirit 
+      of an ancient Pharaoh named Atem, also known as Yami (Dark) Yugi.
+    </p>
+    <p id="bio4">Yugi values friendship and loyalty above all else. 
+      Throughout the series, he forms strong bonds with his friends, 
+      including Joey Wheeler, Tristan Taylor, and Tea Gardner, 
+      who support him in his duels and adventures.</p>
+    <p id="bio5">As Yugi adventured, he gradually unlocked the memories and powers of the ancient Pharaoh, 
+      who inhabits his body during crucial duels. 
+      The Pharaoh's experiences and wisdom greatly influence 
+      Yugi's growth as a duelist and as a person.</p>
+    <div id = "bio6"><p>Throughout the series, Yugi encounters powerful cards known as the Egyptian God Cards - </p>
+      <ul><li id="slifer">Slifer the Sky Dragon</li> <li id="obelisk">Obelisk the Tormentor</li> <li id="ra">The Winged Dragon of Ra</li> </ul>
+    </div>
+    <p id="bio7">
+      In essence, Yugi Muto embodies the spirit of courage, friendship, and determination, making him a beloved and timeless character in the world of entertainment.
+    </p>
+  </article>
   </body>
 </html>

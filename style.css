@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+  }
+
+
+body{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template:  "logo header button"
+                    "p1 p p2" 1fr / .5fr 1fr .5fr ;
+    justify-items: center;
+    align-items: center;
+  }
+
+header {
+    grid-area: header;
+    display: grid;
+    grid-template:  "a" 
+                    "b" 1fr;
+
+    width: 100%;
+    height: 100%;
+    color: white;
+    justify-items: center;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 0, 0, 0.596);
+    
+}
+header h1{
+    grid-area: a;
+    text-align: center;
+    width: auto;
+    
+}
+header h2{
+    grid-area: b;
+    text-align: center;
+}
+
+#yugi-1{
+    grid-area: p1;
+    margin-right: 1fr;
+}
+
+#yugi-2{
+    grid-area: p2;
+    width: 415px;
+}
+#yugilogo {
+    width: 300px;
+}
+
+#yugibio{
+    padding-top: 50px;
+    grid-area: p;
+    text-align: center;
+    word-spacing: 2px;
+    display:grid;
+    gap:5%;
+    
+}
+#yugibio p{
+    margin: 20px;
+    font-size: 40px;
+    line-height: 1.5;
+    border: 2px solid orange;
+    border-radius: 15px;
+}
+
+#bio2{
+    display: none;
+}
+#bio3{
+    display: none;
+}
+#bio4{
+    display: none;
+}
+#bio5{
+    display: none;
+}
+#bio6{
+    display: none;
+}
+#bio7{
+    display: none;
+}
+
+#yugibio ul{
+    list-style: none;
+    line-height: 2.5;
+    font-size:  40px;
+    gap: 10px;
+    display: grid;
+}
+
+#slifer{
+    color: red;
+    border:3px dashed
+}
+
+#obelisk{
+    color: blue;
+    border:3px dashed
+}
+#ra{
+    color: yellow;
+    border:3px dashed
+}
+
+button{
+    grid-area: button;
+    width:200px;
+    height:60px;
+    color: rgb(231, 231, 231);
+    background-color:#ed1c24;
+    font-size: larger;
+}
+
+link{
+    grid-area: logo;
+}
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
