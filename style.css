@@ -1,0 +1,32 @@
+html{
+
+background-color:blueviolet;
+
+}
+h1{
+
+    color:aqua;
+    font-size: 80px;
+}
+h2{
+    color:aqua;
+}
+
+p, p1{
+background-color: blanchedalmond;
+    font-size: large;
+}
+li {
+    color: blanchedalmonds;
+    font-size: 28px;
+    font-weight: 400;
+}
+hr{
+    color: brown;
+}
+p2 {
+    background-color:blanchedalmond;
+}
+figcaption{
+    color: bisque;
+}
