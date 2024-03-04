@@ -29,6 +29,7 @@ header {
     justify-items: center;
     text-decoration: underline;
     text-decoration-color: rgba(255, 0, 0, 0.596);
+    margin-top: 20px;
     
 }
 header h1{
