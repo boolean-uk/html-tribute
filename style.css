@@ -1,0 +1,98 @@
+
+body {
+    background-image: url("https://smartcdn.gprod.postmedia.digital/torontosun/wp-content/uploads/2022/05/Kelly-McGillis-e1652298563726.jpg?quality=90&strip=all&w=288&h=216&sig=MM35L1qgVGxwMZw848OKcA");
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0));
+    text-align: center;
+}
+
+#mainTitle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 75px;
+    margin-top: -80px;
+    margin-bottom: 0px;
+    color: black;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255));
+}
+
+nav {
+    justify-content: center;
+    display: flex;
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.4));
+}
+
+.navbutton {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-width: 2;
+    border-style: solid;
+    width: 140px;
+    text-align: center;
+   
+}
+
+
+.pagesection {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(255, 255, 255, 0.4);
+    height: 350px;
+    text-align: center;
+}
+
+.sectionheading {
+    margin: 0px;
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+#cast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr
+}
+
+.castbox {
+    border-style:solid;
+    margin: 10px;
+    padding-bottom: 25px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#reviews {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.reviewbox {
+    border-style: solid;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.4);
+    font-size: small;
+}
+
+h2 {
+    text-decoration: underline solid white;
+}
+
+nav a {
+    text-decoration: none;
+    color:black;
+    padding: 0px;
+    margin: 30px;
+
+
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+} 
