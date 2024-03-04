@@ -1,0 +1,114 @@
+body {
+    background-image: url(https://marketplace.canva.com/EAFXkszR_Ds/1/0/900w/canva-red-beige-cute-valentine%27s-day-hearts-pattern-phone-wallpaper-pYkf_3Zs4QA.jpg);
+    background-size: cover;
+
+    font-family: sans-serif;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Header */
+header {
+    background-color: rgba(255, 192, 203, 0.486);
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+
+    padding: 10px;
+    margin: 0px;
+}
+
+hr {
+    color: white;
+    height: 5px;
+    background-color: white;
+    border: none;
+}
+
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    background-color: rgb(27, 5, 5);
+    border-radius: 5px;
+    
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+/* Main Section */
+#zuko-picture {
+    height: 500px;
+    padding-top: 50px;
+
+    display: block;
+    margin: auto;
+
+}
+
+h2 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+main section p {
+    display: grid;
+    grid-template-columns: 75ch;
+    padding: 0px 600px;
+
+    letter-spacing: 1.5px;
+}
+
+main section h3 {
+    display: grid;
+    grid-template-columns: 75ch;
+    padding: 0px 600px;
+}
+
+main section ul {
+    display: grid;
+    grid-template-columns: 75ch;
+    padding: 0px 620px;
+
+    letter-spacing: 1.5px;
+}
+
+main section div {
+    display: grid;
+    margin: auto;
+    padding: 50px;
+
+    text-align: center;
+}
+
+.different-corgis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#zuko-redemption-arc {
+    height: 500px;
+    padding: 50px;
+
+    display: block;
+    margin: auto;
+}
+
+/* Footer */
+footer {
+    display: grid;
+    padding: 5px 20px;
+  
+    background-color: rgba(255, 192, 203, 0.486);
+}
