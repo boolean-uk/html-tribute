@@ -1,0 +1,184 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.background {
+  max-width: 100%;
+  height: 110px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/150px-Playstation_logo_colour.svg.png);
+  margin-top: 200px;
+  margin-bottom: 100px;
+  margin-left: 18px;
+}
+
+/* navbar */
+
+.container {
+  max-width: 1300 px;
+  overflow: auto;
+  margin: auto;
+}
+
+#navbar {
+  background-image: linear-gradient(to bottom right, #2e6db4, #8fbaeb);
+  overflow: auto;
+}
+
+#navbar img {
+  width: 75px;
+  float: left;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar ul a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+#about-nav {
+  background-color: #df0024;
+  padding: 20px;
+}
+
+#about-nav:hover {
+  background-color: #df0025e2;
+}
+
+#history-nav {
+  background-color: #f3c300;
+  padding: 20px;
+}
+
+#history-nav:hover {
+  background-color: #f3c200e0;
+}
+
+#games-nav {
+  background-color: #00ab9f;
+  padding: 20px;
+}
+
+#games-nav:hover {
+  background-color: #00aba0dd;
+}
+
+/* infromation sections */
+
+#info h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 75px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+#info p {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 10px;
+}
+
+#info a {
+  padding-bottom: 20px;
+}
+
+/* games section */
+
+#games p {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#games a {
+  text-decoration: none;
+}
+
+
+#games ul li {
+  list-style: none;
+  font-size: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+
+#games ul img {
+  width: 500px;
+  display:block;
+  margin-left:auto ;
+  margin-right: auto;
+  width: 50%;
+}
+
+.gow:visited,
+.unc:visited,
+.hor:visited,
+.tlou:visited {
+  color: black;
+}
+
+.gow:hover {
+  color: #df0024;
+}
+
+.hor:hover {
+  color: #00ab9f;
+}
+
+.unc:hover {
+  color: #f3c300;
+}
+
+.tlou:hover {
+  color: #2e6db4;
+}
+
+/* footer */
+
+footer {
+  margin-top: 50px;
+}
+
+footer div {
+  display: block;
+  background-color: aqua;
+  height: 25px;
+  width: 100%;
+}
+
+.box1 {
+  background-color: #df0024 ;
+}
+
+.box2 {
+  background-color: #00ab9f;
+}
+
+.box3 {
+  background-color: #f3c300;
+}
+
+.box4 {
+  background-color: #2e6db4;
+}
