@@ -16,6 +16,10 @@ header {
   margin: 0 auto;
 }
 
+.logo img {
+  width: 110px;
+}
+
 .logo:hover {
   cursor: pointer;
 }
@@ -51,6 +55,7 @@ header {
   color: black;
   cursor: pointer;
 }
+
 hr {
   border: 1px solid lightgray;
   border-bottom: none;
@@ -68,6 +73,7 @@ main {
 .profile-img {
   padding: 70px;
 }
+
 .profile-img img {
   width: 180px;
   border: 3px solid rgb(255, 60, 0);
@@ -81,6 +87,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
 }
+
 .content {
   width: 400px;
   display: flex;
@@ -132,6 +139,7 @@ main {
   color: grey;
   cursor: pointer;
 }
+
 .posts p,
 .followers p,
 .following p {
@@ -141,6 +149,7 @@ main {
 .about {
   padding-top: 30px;
 }
+
 .about p {
   margin-bottom: 15px;
   font-size: 16px;
@@ -151,7 +160,9 @@ main {
   font-size: 17px;
   font-weight: 700;
 }
+
 /******************** PHOTO SECTION ********************/
+
 .photos {
   max-width: 70%;
   display: flex;
