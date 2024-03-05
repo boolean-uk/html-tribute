@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid bisque; */
+  font-family: sans-serif;
+}
+
+/******************** HERDER SECTION ********************/
+header {
+  max-width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 0;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 110px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.account {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 5px 7px;
+  margin: 0 5px;
+  border-radius: 7px;
+  border: none;
+  font-weight: bold;
+}
+
+.log-in {
+  background-color: #0095f6;
+  color: white;
+}
+
+.log-in:hover {
+  background-color: #127fc7;
+  cursor: pointer;
+}
+.sign-up {
+  color: #0095f6;
+  background-color: white;
+}
+
+.sign-up:hover {
+  color: black;
+  cursor: pointer;
+}
+
+hr {
+  border: 1px solid lightgray;
+  border-bottom: none;
+}
+
+/******************** MAIN SECTION ********************/
+
+main {
+  max-width: 70%;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 20px;
+}
+
+.profile-img {
+  padding: 70px;
+}
+
+.profile-img img {
+  width: 180px;
+  border: 3px solid rgb(255, 60, 0);
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+}
+
+.follow {
+  font-weight: normal;
+  font-size: 15px;
+  padding: 10px 10px;
+}
+
+.message {
+  font-weight: 550;
+  padding: 10px 10px;
+}
+
+.follow:hover,
+.message:hover {
+  background-color: rgb(203, 202, 202);
+  cursor: pointer;
+}
+
+.more:hover {
+  cursor: pointer;
+}
+
+.more p {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.activity {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.activity div {
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.activity div:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.posts p,
+.followers p,
+.following p {
+  margin: 0 2px;
+}
+
+.about {
+  padding-top: 30px;
+}
+
+.about p {
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.name {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+/******************** PHOTO SECTION ********************/
+
+.photos {
+  max-width: 70%;
+  display: flex;
+  justify-content: space-around;
+  margin: 25px auto;
+}
+
+.photo img {
+  width: 100px;
+  height: 100px;
+  border: 1.2px solid darkgray;
+  border-radius: 50%;
+  padding: 2px;
+}
+
+.logo:hover,
+.photo img:hover,
+.profile-img:hover {
+  cursor: pointer;
+}
