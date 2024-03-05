@@ -123,7 +123,7 @@ button{
     font-size: larger;
 }
 
-link{
+#link{
     grid-area: logo;
 }
 @keyframes myAnim {
