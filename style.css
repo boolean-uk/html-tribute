@@ -1,0 +1,67 @@
+body {
+	background-color: #333;
+	background-image: url("https://i.pinimg.com/originals/b4/6b/95/b46b959c3ccb1af19fbcf4405ca5dd1f.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: lighten;
+}
+
+.white-frost {
+	background-color: #333;
+	background-image: url("https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/12/Witcher-3-Wild-Hunt-Flying-Through-Sky.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: lighten;
+}
+
+header {
+	background-color: #2d0808;
+	color: #ccc;
+	padding: 0.1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+header h2 {
+	font-size: inherit;
+	margin: 1rem;
+	font-size: 2rem;
+}
+header a {
+	margin: 1em;
+	color: #ccc;
+	font-size: 1.5rem;
+}
+
+section {
+	background-color: #ddd9;
+	padding: 1rem;
+	width: 30vw;
+	position: absolute;
+	top: 50%;
+	transform: translate(10%, -50%);
+	font-size: 2.25rem;
+}
+section h2 {
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #bc3333;
+}
+section p {
+	line-height: 2.2rem;
+}
+button {
+	background-color: yellow;
+	box-shadow: 2px 2px 20px 5px pink;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 2.25rem;
+
+	background-color: #ccc9;
+	padding: 1rem;
+}
