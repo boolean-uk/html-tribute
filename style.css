@@ -1,0 +1,104 @@
+html
+{
+	padding: 0 1em;
+	scroll-behavior: smooth;
+}
+
+body{
+	max-width: 1440px !important;
+	padding-left: 10%;
+	padding-right: 10%;
+	background: rgb(100, 100, 98);
+}
+
+.content{
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	padding: 40px;
+}
+
+a {
+	color:rgb(165, 165, 105);
+}
+
+button {
+	height: 40px;
+	border: 0;
+	background: rgb(46, 46, 45);
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 0;
+	color: white;
+	font-size: 12px;
+	padding: 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+button:hover {
+	background: rgb(231, 171, 171);
+}
+
+img
+{
+	max-width: 360px;
+	height: auto;
+}
+
+h1 {
+	color: rgb(0, 0, 0);
+    font-size:52px; 
+    text-underline-offset: 0;
+}
+h2 {
+	color: rgb(0,0,0);
+}
+p {
+	font-size: 20px;
+	line-height: 25px;
+}
+
+.image-left, .image-right
+{
+	margin: 1em 0;
+}
+
+@media (min-width: 20em)
+{
+	.image-left, .image-right
+	{
+		display: flex;
+		align-items: center;
+	}
+
+	.image-left img
+	{
+
+		margin-right: 1em;
+		float: left;  
+        fallback 
+	}
+
+	.image-right img
+	{
+		order: 1;
+		margin-left:0 0 1em;
+		 float: right;  fallback  
+	}
+	
+	.image-left::after,
+	.image-right::after
+	{
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+
+@media (min-width: 30em)
+{
+	.image-left img, .image-right img
+	{
+		flex-shrink: 0;
+	}
+}
+
+
