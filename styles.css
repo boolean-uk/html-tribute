@@ -1,0 +1,41 @@
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif;
+}
+
+header, section, footer {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+h1, h2 {
+    color: #003366; /* Dark blue for headings */
+    text-align: center;
+    border-bottom: 2px solid #003366; /* Coloured underline for headers */
+}
+
+p {
+    font-size: 16px; /* Font size for paragraphs */
+    line-height: 1.6; /* Increased line spacing */
+}
+
+img {
+    display: block;
+    margin: 0 auto; /* Center-align images */
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center; /* Center-align footer content */
+}
+
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* No underline for links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
